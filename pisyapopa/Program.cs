@@ -18,6 +18,7 @@
             Console.WriteLine(bus.GetInfo() + $"\nТоплива хватит на {bus.FuelCalculation()}км\n");
             Console.WriteLine(trolleybus.GetInfo() + $"\nАкумулятора хватит на {trolleybus.AcumCalculation()}км\n");
 
+
         }
     }
 }
